@@ -15,6 +15,7 @@
 		line-height: 42px;
 		font-weight: 700;
 		text-transform: uppercase;
+		margin-bottom: 0;
 	}
 	&__subheader {
 		color: #ffffff;
@@ -22,6 +23,7 @@
 		line-height: 24px;
 		font-weight: 500;
 		text-transform: uppercase;
+		margin-bottom: 0;
 		margin-top: 17px;
 	}
 	&__icons {
@@ -40,6 +42,7 @@
 			margin: 0 auto;
 			margin-bottom: 20px;
 			display: block;
+			min-height: 45px;
 		}
 	}
 	&__link {

@@ -5,6 +5,7 @@
 	&__blocks {
 		display: flex;
 		justify-content: space-between;
+		flex-wrap: wrap;
 		margin-top: 65px;
 	}
 	&__block {
@@ -26,6 +27,7 @@
 		font-weight: 300;
 		text-align: center;
 		margin-top: 36px;
+		margin-bottom: 0;
 		a {
 			color: #ff0000;
 			text-decoration: underline;
