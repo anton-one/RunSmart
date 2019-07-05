@@ -11,6 +11,7 @@
 		}
 	}
 }
+
 @media (max-width: 768px) {
 	.header {
 		&__logo {
@@ -54,7 +55,42 @@
 			margin-top: 46px;
 		}
 	}
+	.consultation {
+		padding: 30px 0;
+		min-height: 560px;
+		h2 {
+			font-size: 32px;
+			text-align: center;
+			max-width: 500px;
+    		margin: 0 auto;
+			br {
+				display: none;
+			}
+		}
+		&__descr {
+			text-align: center;
+			max-width: 500px;
+			margin: 30px auto 0;
+			font-size: 16px;
+			br {
+				display: none;
+			}
+		}
+		&__form {
+			margin: 36px auto 0;
+		}
+	}
+	.carousel {
+		padding: 30px 0;
+		&__inner {
+			width: 480px;
+		}
+		&__img {
+			width: 100%;
+		}
+	}
 }
+
 @media (max-width: 490px) {
 	.promo {
 		&__header {
@@ -83,6 +119,16 @@
 		}
 		&__descr {
 			margin-top: 20px;
+		}
+	}
+	.consultation {
+		h2 {
+			font-size: 24px;
+		}
+	}
+	.carousel {
+		&__inner {
+			width: 300px;
 		}
 	}
 }

@@ -5,14 +5,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
   <link rel="stylesheet" href="css/font.css" />
+  <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/style.min.css" />
   <title>RunSmart</title>
 </head>
 
 <body>
-  <div class="promo">
+  <section class="promo">
     <div class="container">
       <header class="header">
         <a href="#" class="header__logo">
@@ -55,7 +57,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
   <section class="advantages">
     <div class="container">
@@ -86,6 +88,43 @@
     </div>
   </section>
 
+  <section class="consultation">
+    <div class="container">
+      <h2 class="title title__consult">Получите бесплатную консультацию <br> по подбору пульсометра </h2>
+      <p class="consultation__descr">Просто заполните форму заявки <br> и мы перезвоним вам в течении 10 минут</p>
+
+      <form action="#" class="consultation__form">
+        <input type="text" name="text" required placeholder="Ваше имя">
+        <input type="text" name="text" required placeholder="Ваш телефон">
+        <input type="email" name="email" required placeholder="Ваш E-mail">
+        <button class="button button__submit">заказать кОНСУЛЬТАЦИЮ</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="carousel">
+    <div class="container">
+
+      <div class="carousel__inner">
+        <div class="carousel__div"><img src="img/slide_1.jpg" class="carousel__img" alt=""></div>
+        <div class="carousel__div"><img src="img/slide_2.jpg" class="carousel__img" alt=""></div>
+        <div class="carousel__div"><img src="img/slide_3.jpg" class="carousel__img" alt=""></div>
+      </div>
+
+      <!-- <div class="owl-carousel">
+        <div> <img src="img/slide_1.jpg" alt=""> </div>
+        <div> <img src="img/slide_2.jpg" alt=""> </div>
+        <div> <img src="img/slide_3.jpg" alt=""> </div>
+      </div> -->
+
+    </div>
+  </section>
+
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
