@@ -89,6 +89,20 @@
 			width: 100%;
 		}
 	}
+	.feed {
+		&__blocks {
+			flex-direction: column;
+			align-items: center;
+			margin-top: 50px;
+		}
+		&__content {
+			text-align: center;
+			max-width: 600px;
+			margin-top: 20px;
+			margin-left: 0;
+			padding-right: 0;
+		}
+	}
 }
 
 @media (max-width: 490px) {
@@ -129,6 +143,15 @@
 	.carousel {
 		&__inner {
 			width: 300px;
+		}
+	}
+	.feed {
+		&__descr {
+			margin-top: 10px;
+			font-size: 14px;
+			br {
+				display: none;
+			}
 		}
 	}
 }
