@@ -80,5 +80,30 @@ $(document).ready(function () {
 		return false;
 	});
 
+	// Прелоадер
+	$(window).on('load', function () {
+		$('.preloader').delay(500).fadeOut('slow', function () {
+			$(this).attr('style', 'display: none !important');
+		});
+	});
+	//
+
+
+
+
+	// Кнопка поднятия страницы вверх
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 700) { // Сколько должен прокрутить чтобы появилась кнопка
+			$('.scrollToTop').fadeIn();
+		} else {
+			$('.scrollToTop').fadeOut();
+		}
+	});
+
+	$('.scrollToTop').click(function () {
+		$('html, body').animate({ scrollTop: 0 }, 2000); // Скорость поднятия
+		return false;
+	});
+	//
 
 });

@@ -5,12 +5,31 @@
    <meta charset="UTF-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
    <link rel="stylesheet" href="css/owl.carousel.min.css">
    <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
    <link rel="stylesheet" href="css/font.css" />
    <link rel="stylesheet" href="css/slick.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
    <link rel="stylesheet" href="css/style.min.css" />
+
+   <style>
+      .preloader {
+         position: fixed;
+         top: 0;
+         left: 0;
+         right: 0;
+         bottom: 0;
+         z-index: 9999;
+         background-color: #fefefe;
+      }
+   </style>
+
+
+
    <title>RunSmart</title>
+
 </head>
 
 <body>
@@ -454,6 +473,12 @@
          <p class="modal__subtitle">Спасибо за вашу заявку!</p>
          <p class="modal__descr">Наш менеджер свяжется с вами в ближайшее время!</p>
       </div>
+   </div>
+
+   <button class="scrollToTop"><i class="fas fa-angle-up"></i></button>
+
+   <div class="preloader">
+      <div id="preloader"></div>
    </div>
 
    <script src="js/jquery-3.4.1.min.js"></script>
