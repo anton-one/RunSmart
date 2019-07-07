@@ -13,6 +13,9 @@
 }
 
 @media (max-width: 768px) {
+	.title {
+		font-size: 24px;
+	}
 	.header {
 		&__logo {
 			width: 100%;
@@ -48,9 +51,6 @@
 	}
 	.advantages {
 		padding: 20px 0;
-		.title {
-			font-size: 24px;
-		}
 		&__blocks {
 			margin-top: 46px;
 		}
@@ -76,7 +76,7 @@
 				display: none;
 			}
 		}
-		&__form {
+		.feed__form-consultation {
 			margin: 36px auto 0;
 		}
 	}
@@ -88,6 +88,60 @@
 		&__img {
 			width: 100%;
 		}
+	}
+	.catalog {
+		padding-bottom: 50px;
+		&__tabs {
+			margin-top: 50px;
+			flex-wrap: wrap;
+		}
+		&__tab {
+			width: 140px;
+			height: 35px;
+			font-size: 14px;
+    		line-height: 14px;
+		}
+		&__content {
+			justify-content: center;
+		}
+		&-item {
+			margin: 5px;
+			padding: 10px 10px 10px;
+			width: 230px;
+			min-height: 385px;
+		}
+		&-item__img {
+			height: 130px;
+		}
+		&-item__subtitle {
+			margin-top: 15px;
+		}
+		&-item__descr {
+			margin-top: 10px;
+		}
+		&-item__link {
+			margin-top: 10px;
+		}
+		&-item__list {
+			li {
+				margin-bottom: 8px;
+				font-size: 12px;
+			}
+		}
+		&-item__footer {
+			margin-top: 30px;
+		}
+		&-item__old-price {
+			font-size: 12px;
+		}
+		&-item__price {
+			font-size: 14px;
+		}
+		.button_mini {
+			width: 100px;
+			height: 26px;
+		}
+
 	}
 	.feed {
 		&__blocks {
@@ -101,6 +155,10 @@
 			margin-top: 20px;
 			margin-left: 0;
 			padding-right: 0;
+		}
+		&__img {
+			width: 120px;
+			height: 120px;
 		}
 	}
 }
@@ -145,6 +203,14 @@
 			width: 300px;
 		}
 	}
+	.catalog {
+		&__tab {
+			margin: 5px;
+		}
+		&__tabs {
+			margin-top: 25px;
+		}
+	}
 	.feed {
 		&__descr {
 			margin-top: 10px;
@@ -152,6 +218,22 @@
 			br {
 				display: none;
 			}
+		}
+	}
+	footer {
+		max-height: 256px;
+		iframe {
+			display: none;
+		}
+		.footer__info {
+			width: 100%;
+			height: 256px;
+		}
+		.footer__adress {
+			font-size: 16px;
+		}
+		.footer__phone {
+			font-size: 18px;
 		}
 	}
 }
