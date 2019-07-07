@@ -20,7 +20,7 @@ $(document).ready(function () {
 	//
 
 
-	// Скрипт табов
+	// Скрипт табов (категорий товаров)
 	$('ul.catalog__tabs').on('click', 'li:not(.catalog__tab_active)', function () {
 		$(this)
 			.addClass('catalog__tab_active').siblings().removeClass('catalog__tab_active')
@@ -79,6 +79,8 @@ $(document).ready(function () {
 		});
 		return false;
 	});
+	//
+
 
 	// Прелоадер
 	$(window).on('load', function () {

@@ -236,4 +236,32 @@
 			font-size: 18px;
 		}
 	}
+	.modal {
+		padding: 25px;
+		width: 290px;
+		padding-top: 40px;
+		.feed__form {
+			width: 240px;
+			align-items: center;
+			margin: 0 auto;
+		}
+		.button {
+			font-size: 12px;
+			width: 75%;
+			height: 45px;
+		}
+		form {
+			input {
+				width: 200px;
+			}
+		}
+		.modal__descr {
+			margin-bottom: 15px;
+			font-size: 12px;
+		}
+		.modal__close {
+			top: 5px;
+			right: 25px;
+		}
+	}
 }
