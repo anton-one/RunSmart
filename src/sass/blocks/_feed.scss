@@ -1,0 +1,39 @@
+.feed {
+	padding-bottom: 70px;
+
+	&__blocks {
+		margin-top: 100px;
+		display: flex;
+		&:nth-child(2) {
+			margin-top: 70px;
+		}
+	}
+	&__img {
+		width: 169px;
+		height: 169px;
+	}
+	&__content {
+		margin-left: 62px;
+		padding-right: 42px;
+	}
+	&__subtitle {
+		color: #0d0d0d;
+		font-size: 18px;
+		font-weight: 700;
+		margin-bottom: 0;
+	}
+	&__opi {
+		margin-top: 10px;
+		color: #646464;
+		font-size: 14px;
+		font-weight: 300;
+		margin-bottom: 0;
+	}
+	&__descr {
+		color: #0d0d0d;
+		font-size: 16px;
+		font-weight: 300;
+		margin-bottom: 0;
+		margin-top: 19px;
+	}
+}
